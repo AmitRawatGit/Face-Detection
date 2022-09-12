@@ -1,9 +1,16 @@
+
+# steps for execution
+# in the below code you can see a variable named "img = cv2.imread("image path here")"
+# in that "img" variable give path of an image and then execute the code
+
+
+
+
 import cv2
 from random import randrange as randRange
 
 # get face.xml file data
-tarinedDataSet = cv2.CascadeClassifier(
-    cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+tarinedDataSet = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # select image for detecting face
 # img = cv2.imread("Project\Face_Detection\images\Group1.jpg", 0) -----> 0 will convert image into black and white
