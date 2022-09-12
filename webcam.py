@@ -2,10 +2,7 @@
 # steps for execution
 # here no need to give a path, just execute teh code
 
-from asyncio.windows_events import NULL
-from operator import truediv
 import cv2
-from random import randrange as randRange
 
 # get face.xml file data
 tarinedDataSet = cv2.CascadeClassifier(
