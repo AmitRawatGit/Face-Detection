@@ -1,3 +1,7 @@
+
+# steps for execution
+# here no need to give a path, just execute teh code
+
 from asyncio.windows_events import NULL
 from operator import truediv
 import cv2
@@ -16,7 +20,7 @@ while True:
     # convert image into black and white or gray-scale because openCV will work only for black and white images
     grayImage = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     # detech faces || detectMultiScale will return cordinates of detected faces
-    # cordinated will be like [[38 165 279 279]] ie [[x y height width]]
+    # cordinates will be like [[38 165 279 279]] ie [[x y height width]]
     faceCordinates = tarinedDataSet.detectMultiScale(grayImage)
     for i in range(len(faceCordinates)):
         x, y, w, h = faceCordinates[i]
