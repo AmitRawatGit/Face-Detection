@@ -1,3 +1,9 @@
+# steps for execution
+# in the below code you can see a variable named "video = cv2.VideoCapture('videos\Video2.mp4')"
+# in that "video" variable give path of an video and then execute the code
+
+
+
 import cv2
 
 # get face.xml file data
