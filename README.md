@@ -1,4 +1,4 @@
-This folder cantains three files :- image.py  video.py  webcam.py
+This folder cantains three files :- image.py , video.py , webcam.py
 
 ''
   image.py :- in this file you will give path of an image to "img" variable in the code.
